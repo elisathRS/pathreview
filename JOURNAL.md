@@ -18,3 +18,18 @@ Furthermore, the scope of this issue is an excellent fit for my onboarding proce
 **Setup confirmation:** [x] App runs locally at localhost:5173
 
 **Cohort ledger:** [x] Issue added to cohort ledger
+
+
+## Week 8 — Reproduction & solution planning
+
+**Reproduction commit link:** [link to commit documenting the reproduced issue]
+
+**Reproduction summary:**
+I reproduced the issue # 117 by reviewing the local API documentation docs/API and comparing it with the available backend routes. The documentation listed the endpoints, but it did not include copy-pasteable curl examples for common flows such as health checks, authentication, profiles, and reviews, which made local validation harder for new contributors.
+
+**PLAN.md link:** https://github.com/elisathRS/pathreview/blob/docs/117-include-api-example-curl-commands/PLAN.md
+
+**Walkthrough video (recommended):**  Not recorded yet
+
+**Blockers or open questions:**
+I am determining the scope of this first docs update: should it include the `GET /reviews/{review_id}/status` and `PUT /profiles/{profile_id} routes found in the code, or remain restricted to the existing in `docs/API.md`?
