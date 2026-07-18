@@ -22,7 +22,7 @@ Furthermore, the scope of this issue is an excellent fit for my onboarding proce
 
 ## Week 8 — Reproduction & solution planning
 
-**Reproduction commit link:** [link to commit documenting the reproduced issue]
+**Reproduction commit link:** https://github.com/ascherj/pathreview/commit/a1131b988c93e8278a2e3940d2f09c406eeb782b
 
 **Reproduction summary:**
 I reproduced the issue # 117 by reviewing the local API documentation docs/API and comparing it with the available backend routes. The documentation listed the endpoints, but it did not include copy-pasteable curl examples for common flows such as health checks, authentication, profiles, and reviews, which made local validation harder for new contributors.
