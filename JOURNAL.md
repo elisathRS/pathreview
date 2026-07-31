@@ -48,3 +48,19 @@ I will validate every example against the local API, run make check and make tes
 None
 
 ---
+
+### Check-in 2 (end of week)
+
+**PR link:** https://github.com/ascherj/pathreview/pull/477
+
+**Branch:** `docs/117-include-api-example-curl-commands`
+
+**What you built:**
+I expanded docs/API.md to include comprehensive curl examples for the health, authentication, profile, and review endpoints. The documentation covers JSON, form-encoded, multipart, and bearer-authenticated requests, and illustrates how to reuse profile and review IDs returned by the API.
+
+**Tests added or updated:**
+Since this is a documentation-only change, no automated test files were updated. Validation was performed by running the documented commands against the local API, along with the existing make check and make test-unit workflows.
+
+**Self-review confirmation:** [X] make check passes  [X] make test-unit passes
+
+**Draft PR feedback received from:** None
