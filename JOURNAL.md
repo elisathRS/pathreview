@@ -33,3 +33,18 @@ I reproduced the issue # 117 by reviewing the local API documentation docs/API a
 
 **Blockers or open questions:**
 I am determining the scope of this first docs update: should it include the `GET /reviews/{review_id}/status` and `PUT /profiles/{profile_id} routes found in the code, or remain restricted to the existing in `docs/API.md`?
+
+## Week 9 — Solution building & PR submission
+
+### Check-in 1 (mid-week)
+
+**Current progress:**
+I updated the main API documentation in docs/API.md. The API reference now includes ready-to-use curl examples for the health check, user registration, login, profile creation, retrieval, and deletion, as well as review creation, retrieval, and listing. I also documented the required Content-Type headers, bearer token authentication, and reusable placeholders for profile and review IDs.
+
+**Next steps:**
+I will validate every example against the local API, run make check and make test-unit, request feedback on the existing pull request, and incorporate any clarifications or improvements identified during testing and review.
+
+**Blockers:**
+None
+
+---
